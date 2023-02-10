@@ -1,0 +1,14 @@
+.navbar-brand {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+ul li a.active {
+    color: rgb(15, 195, 226);
+}

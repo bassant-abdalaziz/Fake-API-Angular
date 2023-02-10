@@ -1,0 +1,22 @@
+<div class="container text-center mt-5">
+    <h2 class=" mb-5">All Users</h2>
+
+    <table class="table ">
+        <thead class="table-dark">
+            <tr>
+
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let u of users">
+                <td>{{u.id}}</td>
+                <td>{{u.name}}</td>
+                <td><a [routerLink]="['/details',u.id]">{{u.email}}</a></td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
